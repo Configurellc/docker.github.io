@@ -164,7 +164,7 @@ You'll see Docker step through each instruction in your Dockerfile, building up 
 
     Also notice, you didn't specify what process you wanted your container to run. You didn't have to, as you've used the `CMD` directive when building your Dockerfile; thanks to this, Docker knows to automatically run the process `npm start` inside the container when it starts up.
 
-2.  Visit your application in a browser at `localhost:8000`. You should see your bulletin board application up and running. At this step, you would normally do everything you could to ensure your container works the way you expected; now would be the time to run unit tests, for example.
+2.  Visit your application in a browser at `localhost:8000` or use your default machines IP address XXX.XXX.XX.XXX:8000 . You should see your bulletin board application up and running. At this step, you would normally do everything you could to ensure your container works the way you expected; now would be the time to run unit tests, for example.
 
 3.  Once you're satisfied that your bulletin board container works correctly, you can delete it:
 
